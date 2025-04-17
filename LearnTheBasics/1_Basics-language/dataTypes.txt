@@ -1,0 +1,68 @@
+Primitive Types
+Primitives are the most basic data types. They are immutable, meaning that their values cannot be changed once created. When you assign or pass a primitive value, a copy is made.
+
+Number
+
+Description: Represents both integers and floating-point numbers.
+
+Example:
+
+javascript
+let age = 25;
+let pi = 3.14159;
+Note: JavaScript uses the IEEE 754 standard for numbers, so all numbers are stored as double-precision floating-point values.
+
+String
+
+Description: Used for textual data. Strings are sequences of characters enclosed in single quotes, double quotes, or backticks (template literals).
+
+Example:
+
+javascript
+let greeting = "Hello, World!";
+let name = 'Shubham';
+let template = `Welcome, ${name}!`;
+Boolean
+
+Description: Represents one of two values: true or false.
+
+Example:
+
+javascript
+let isActive = true;
+let isFinished = false;
+Undefined
+
+Description: Indicates that a variable has been declared but not assigned a value.
+
+Example:
+
+javascript
+let x;
+console.log(x); // Outputs: undefined
+Null
+
+Description: Represents the intentional absence of any object value. It’s an assignment value that indicates no value.
+
+Example:
+
+javascript
+let user = null;
+Symbol (Introduced in ES6)
+
+Description: Represents a unique and immutable identifier. They are often used as unique keys for properties in objects.
+
+Example:
+
+javascript
+let sym1 = Symbol('description');
+let sym2 = Symbol('description');
+console.log(sym1 === sym2); // false — every Symbol is unique
+BigInt
+
+Description: Provides a way to represent whole numbers larger than 2^53 - 1 (the largest number JavaScript can reliably represent with the Number primitive).
+
+Example:
+
+javascript
+let largeNumber = 123456789012345678901234567890n;
