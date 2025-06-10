@@ -1,0 +1,52 @@
+//creating array
+// Using literal notation
+let fruits = ["apple", "banana", "cherry"];
+
+// Using the Array constructor
+let numbers = new Array(1, 2, 3, 4);
+
+
+Arrays maintain their order, and each element can be accessed using its index (starting at 0):
+console.log(fruits[0]); // "apple"
+
+
+2. Fundamental Array Methods
+Modifying the Array
+1.push(): Adds one or more elements to the end of an array and returns the new length.
+fruits.push("date");  // fruits becomes ["apple", "banana", "cherry", "date"]
+
+2.pop(): Removes the last element from an array and returns that element.
+let lastFruit = fruits.pop();  // lastFruit is "date", fruits becomes ["apple", "banana", "cherry"]
+
+3.unshift(): Adds one or more elements to the beginning of an array and returns the new length.
+fruits.unshift("kiwi");  // fruits becomes ["kiwi", "apple", "banana", "cherry"]
+
+4.shift(): Removes the first element from an array and returns that element.
+let firstFruit = fruits.shift();  // firstFruit is "kiwi", fruits becomes ["apple", "banana", "cherry"]
+
+5.splice(): Can remove, replace, or add elements to an array. You specify the start index, the number of elements to remove, and optionally, elements to add.
+// Remove one element at index 1
+fruits.splice(1, 1);  // fruits becomes ["apple", "cherry"]
+
+// At index 1, remove 0 elements and add "blueberry" and "mango"
+fruits.splice(1, 0, "blueberry", "mango");  // fruits becomes ["apple", "blueberry", "mango", "cherry"]
+
+6.
+
+searching and texting
+indexOf(): Returns the first index at which a given element can be found or -1 if it is not present.
+let pos = fruits.indexOf("apple");
+
+includes(): Determines whether an array contains a certain element, returning true or false.
+let hasCherry = fruits.includes("cherry");
+
+
+join(): Joins all elements of an array into a string.
+let fruitString = fruits.join(", ");  // "apple, blueberry, mango, cherry"
+
+
+toString(): Returns a string representing the specified array and its elements.
+let stringRepresentation = fruits.toString();
+
+
+and sort,reverse   ...etc
