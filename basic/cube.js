@@ -21,6 +21,7 @@ Output :-
 
 
 */
+
 let n = 125;
 
 for (let i = 0; i * i * i <= n; i++) {

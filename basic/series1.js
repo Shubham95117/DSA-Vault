@@ -23,6 +23,7 @@ Output :-
 
 49
 */
+
 let n = 49;
 let i = 1;
 

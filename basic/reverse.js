@@ -9,6 +9,7 @@ output
 
 321
 */
+
 let n = 123;
 let revesedNum = 0;
 while (n) {

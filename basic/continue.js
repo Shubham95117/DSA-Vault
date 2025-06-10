@@ -19,6 +19,7 @@ Output
 
 10
 */
+
 let n = 10;
 
 for (let i = 2; i <= 10; i += 2) {

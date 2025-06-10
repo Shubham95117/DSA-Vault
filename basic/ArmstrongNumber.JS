@@ -34,8 +34,8 @@ Logic - 123 is not an Armstrong number because 1^3 + 2^3 + 3^3 = 1 + 8 + 27 = 36
 
 let n = 123;
 let num = n;
-
 let sum = 0;
+
 while (num) {
   let digit = num % 10;
   sum += Math.pow(digit, 3);

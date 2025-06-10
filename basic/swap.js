@@ -8,6 +8,7 @@ let b = 5;
 // console.log(a, b);
 
 //temp
+
 let temp = a;
 a = b;
 b = temp;

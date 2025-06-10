@@ -20,7 +20,7 @@ Output
 
 
 */
-
+// even
 let n = 10;
 let i = 2;
 

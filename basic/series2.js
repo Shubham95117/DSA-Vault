@@ -17,6 +17,7 @@ output:- except 5
 
 7
 */
+//series
 
 let n = 7;
 let i = 1;

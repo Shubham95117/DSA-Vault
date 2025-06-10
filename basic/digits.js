@@ -1,3 +1,4 @@
+//digits
 let n = 1234;
 
 while (n) {
