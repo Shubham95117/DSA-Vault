@@ -11,6 +11,7 @@ for (let i = 0; i < n - 1; i++) {
 }
 console.log(arr);
 
+//swap function
 function swap(arr, a, b) {
   let temp = arr[a];
   arr[a] = arr[b];

@@ -14,7 +14,7 @@ Ouput:-
 7
 */
 
-let arr = [10, 5, 2, 0, 1, 55];
+let arr = [10, 5, 2, 0, 120, 55];
 let max = arr[0];
 
 for (let i = 0; i < arr.length; i++) {
