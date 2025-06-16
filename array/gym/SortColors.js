@@ -30,3 +30,21 @@ Output : 0 0 1 1 2 2
 
 Explanation: After sorting the array, the elements are arranged in ascending order: [0, 0, 1, 1, 2, 2].
 */
+var sortColors = function (nums) {
+  let l = 0,
+    mid = 0,
+    h = nums.length - 1;
+  while (mid <= h) {
+    if (nums[mid] == 0) {
+      [nums[l], nums[mid]] = [nums[mid], nums[l]];
+      l++;
+      mid++;
+    } else if (nums[mid] == 1) {
+      mid++;
+    } else {
+      [nums[mid], nums[h]] = [nums[h], nums[mid]];
+      h--;
+    }
+  }
+  return nums;
+};
